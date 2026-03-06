@@ -67,6 +67,7 @@ function ordenaListaCliente(lista) {
     return [...lista].sort((a, b) => a.getNome().localeCompare(b.getNome()));
 }
 
+//xsqdl
 
 let telefone1 = new TelefoneCelular('12', '988559042');
 let endereco1 = new Endereco('SP', 'São José dos Campos', 'Rua dos Masanoris', '27');
